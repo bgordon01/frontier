@@ -15,7 +15,7 @@ frontier/
 ├── plugin/             the built "frontier" plugin (generated; don't edit by hand)
 ├── sources.conf        which upstream repos and skill folders to vendor
 ├── rules/RULES.md      the house rules, in precise form, for Claude
-├── skills/             this repo's own skills (start)
+├── skills/             this repo's own skills (start, build-spec)
 ├── overrides/          local changes re-applied to vendored skills on every sync
 └── vendor/<source>/    vendored skills, one folder per upstream, with LICENSE and SOURCE
 ```
@@ -59,7 +59,7 @@ curl -fsSL https://raw.githubusercontent.com/bgordon01/frontier/main/install.sh 
 ~/.claude/
 ├── CLAUDE.md               one @import line between frontier markers
 ├── frontier-rules.md       → rules/RULES.md
-├── skills/<17 skills>      → skills/ and vendor/*/
+├── skills/<18 skills>      → skills/ and vendor/*/
 ├── agents/<4 agents>       → vendor/impeccable/_agents/
 └── .frontier-installed     manifest of everything above, for clean updates
 ```
