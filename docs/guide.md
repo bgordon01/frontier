@@ -45,6 +45,7 @@ Building needs git, because a branch per ticket is how a change gets undone. If 
 | `/frontier:to-spec` | Writes the agreed plan as a spec in your tracker. |
 | `/frontier:to-tickets` | Splits the spec into small tickets. |
 | `/frontier:implement` | Builds one ticket on its own branch, test first where it can, then hands it over for your review. |
+| `/frontier:build-spec <issue or file>` | Builds every ticket of a spec, one clean helper per ticket, as stacked draft PRs. Stops at anything only you can decide. |
 | `/frontier:tdd` | The test-first loop on its own. `implement` uses it for you. |
 | `/frontier:code-review` | Reviews a change against the spec and your standards. |
 | `/frontier:diagnosing-bugs` | Finds the real cause of a bug before fixing it. |
